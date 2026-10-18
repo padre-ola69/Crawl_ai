@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: crawl-ai-render
+    env: docker
+    region: oregon
+    repo: padre-ola69/Crawl_ai
+    branch: main
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: "3000"
+      - key: NODE_ENV
+        value: "production"
+    healthCheckPath: /api/health
