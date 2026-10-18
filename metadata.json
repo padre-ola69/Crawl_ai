@@ -1,0 +1,6 @@
+{
+  "name": "OmniMedia Hub",
+  "description": "Convertisseur et extracteur multimédia pour vidéos et playlists YouTube en MP3/MP4 avec explorateur et crawler média Reddit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
